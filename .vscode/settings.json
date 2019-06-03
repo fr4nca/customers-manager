@@ -1,3 +1,4 @@
 {
-  "python.pythonPath": "/home/fr4nca/.local/share/virtualenvs/react-django-customers-NwCI7Lhw/bin/python"
+  "python.pythonPath": "/home/fr4nca/.local/share/virtualenvs/react-django-customers-NwCI7Lhw/bin/python",
+  "git.ignoreLimitWarning": true
 }
