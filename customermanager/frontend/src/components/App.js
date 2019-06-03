@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-import { HashRouter as Router, Route, Switch, Link } from 'react-router-dom'
+import { Provider } from 'react-redux'
+import store from '../store'
+
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Header from './layout/Header'
 import Dashboard from './customers/Dashboard'
@@ -10,7 +13,7 @@ import CustomerDetail from './customers/CustomerDetail'
 export class App extends Component {
   render() {
     return (
-      <>
+      <Provider store={store}>
         <Header />
         <Router>
           <div className='container mt-4'>
@@ -20,7 +23,7 @@ export class App extends Component {
             </Switch>
           </div>
         </Router>
-      </>
+      </Provider>
     )
   }
 }

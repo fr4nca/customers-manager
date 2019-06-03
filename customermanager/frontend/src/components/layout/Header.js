@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <nav className='navbar navbar-expand-sm navbar-light bg-light'>
+    <nav className='navbar navbar-expand-sm navbar-dark bg-dark'>
       <button
         className='navbar-toggler'
         type='button'
